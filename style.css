@@ -1,3 +1,9 @@
+@font-face{
+    font-family: "DS-Digital Normal";
+    font-style: normal;
+    font-weight: normal;
+    src: local("DS-Digital Normal"), url("DS-DIGI.woff") format("woff");
+}
 
 .calculator-body{
     height: 300px;
@@ -17,6 +23,7 @@
     font-size: 25px;
     padding: 5px 10px;
     margin-bottom: 20px;
+    font-family: "DS-Digital Normal";
 }
 .buttons-container{
     height: 200px;
